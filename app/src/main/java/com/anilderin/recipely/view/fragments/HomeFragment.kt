@@ -47,6 +47,9 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                 LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
             rvFoodList.adapter = recipelyAdapter
 
+            button1.setOnClickListener {
+                findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToDetailsFragment())
+            }
 
 
 

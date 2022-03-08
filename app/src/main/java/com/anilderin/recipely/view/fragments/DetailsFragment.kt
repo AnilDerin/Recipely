@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.anilderin.recipely.R
 import com.anilderin.recipely.databinding.FragmentDetailsBinding
 
@@ -31,6 +32,9 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
 
         binding.apply {
 
+            backButton.setOnClickListener {
+                findNavController().popBackStack()
+            }
         }
 
     }

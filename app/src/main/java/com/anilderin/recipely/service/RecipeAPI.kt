@@ -8,6 +8,7 @@ interface RecipeAPI {
 
     companion object {
         const val SEARCH_FOOD = "search.php?"
+        const val CATEGORIES = "categories.php"
     }
 
     @GET(SEARCH_FOOD)
@@ -15,6 +16,6 @@ interface RecipeAPI {
         @Query("s") searchTerm: String,
     ): Meal
 
-    @GET("categories.php")
+    @GET(CATEGORIES)
     fun getCategories(strCategory: String): String
 }

@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/a_der/AndroidStudioProjects/Recipely/app/src/main/res/drawable/ic_back.xml" value="0.2075" />
+        <entry key="..\:/Users/a_der/AndroidStudioProjects/Recipely/app/src/main/res/drawable/ic_cross.xml" value="0.2075" />
+        <entry key="..\:/Users/a_der/AndroidStudioProjects/Recipely/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2075" />
         <entry key="..\:/Users/a_der/AndroidStudioProjects/Recipely/app/src/main/res/layout/activity_main.xml" value="0.35733695652173914" />
         <entry key="..\:/Users/a_der/AndroidStudioProjects/Recipely/app/src/main/res/layout/food_recipe.xml" value="0.35733695652173914" />
         <entry key="..\:/Users/a_der/AndroidStudioProjects/Recipely/app/src/main/res/layout/fragment_details.xml" value="0.35733695652173914" />
