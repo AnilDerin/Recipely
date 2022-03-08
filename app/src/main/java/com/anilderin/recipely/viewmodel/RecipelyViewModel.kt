@@ -17,7 +17,7 @@ class RecipelyViewModel : ViewModel() {
 
 
 
-    fun searchFood(strMeal: String) {
+    /*fun searchFood(strMeal: String) {
 
         viewModelScope.launch {
 
@@ -29,5 +29,5 @@ class RecipelyViewModel : ViewModel() {
         viewModelScope.launch {
             recipeAPIService.getCategories(strCategory)
         }
-    }
+    }*/
 }
