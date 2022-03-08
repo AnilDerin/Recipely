@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/foodImage"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="4dp"
+        android:contentDescription="@string/image"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/foodDescription"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
+
+    <TextView
+        android:id="@+id/foodTitle"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/title"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/foodDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:id="@+id/foodDescription"
+        android:layout_width="243dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="24dp"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:text="@string/description"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/foodTitle"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/foodTitle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
